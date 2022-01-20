@@ -16,7 +16,7 @@ module.exports = class toneindicators extends Plugin {
 
           f: "fake",
 
-          gen: "genuine question",
+          gen: "genuine",
 
           hj: "half-joking",
           hyp: "hyperbole",
