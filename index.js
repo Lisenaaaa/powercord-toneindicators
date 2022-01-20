@@ -8,45 +8,66 @@ module.exports = class toneindicators extends Plugin {
       usage: "{c} [tone indicator]",
       executor(args) {
         const tones = {
-          j: "joking",
-          hj: "half-joking",
-          ij: "inside joke",
-          s: "sarcasm",
-          srs: "serious",
-          nsrs: "not serious",
-          p: "platonic",
-          r: "romantic",
-          lh: "lighthearted",
-          neg: "negative connotation",
-          nc: "negative connotation",
-          pos: "positive connotation",
-          pc: "positive connotation",
-          rh: "rhetorical question",
-          gen: "genuine question",
-          hyp: "hyperbole",
           c: "copypasta",
-          q: "quote",
+          cb: "clickbait",
+
+          ex: "for example",
+          fex: "for example",
+
+          f: "fake",
+
+          gen: "genuine question",
+
+          hj: "half-joking",
+          hyp: "hyperbole",
+
+          ij: "inside joke",
+
+          j: "joking",
+
+          lh: "lighthearted",
+          li: "literally",
+
           lyrics: "lyrics of a song",
           lyric: "lyrics of a song",
           ly: "lyrics of a song",
-          f: "fake",
-          th: "threat",
-          li: "literally",
+
+          neg: "negative connotation",
+          nc: "negative connotation",
+
+          nsrs: "not serious",
           nm: "not mad or upset",
-          t: "teasing",
           nbh: "nobody here (used in vague vents)",
-          cb: "clickbait",
-          ex: "example , for example",
-          fex: "example , for example",
-          sx: "sexual intent",
-          x: "sexual intent",
+
           nsx: "non-sexual intent",
           nx: "non-sexual intent",
+
+          p: "platonic",
+
+          pos: "positive connotation",
+          pc: "positive connotation",
+
+          q: "quote",
+
+          r: "romantic",
+          rh: "rhetorical question",
+
+          s: "sarcasm",
+          srs: "serious",
+
+          t: "teasing",
+          th: "threat",
+
+          x: "sexual intent",
+          sx: "sexual intent",
         };
 
         return {
           send: false,
-          result: `${tones[args[0]] ?? "I couldn't find that tone tag! Feel free to make a PR with it on my GitHub repo: <https://github.com/Lisenaaaa/powercord-toneindicators>"}`,
+          result: `${
+            tones[args[0]] ??
+            "I couldn't find that tone tag! Feel free to make a PR with it on my GitHub repo: <https://github.com/Lisenaaaa/powercord-toneindicators>"
+          }`,
         };
       },
     });
