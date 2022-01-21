@@ -1,6 +1,6 @@
 const { Plugin } = require("powercord/entities");
 
-module.exports = class toneindicators extends Plugin {
+module.exports = class ToneIndicators extends Plugin {
   async startPlugin() {
     powercord.api.commands.registerCommand({
       command: "tone",
