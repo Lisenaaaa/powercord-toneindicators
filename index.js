@@ -60,6 +60,7 @@ module.exports = class ToneIndicators extends Plugin {
 
           x: "sexual intent",
           sx: "sexual intent",
+          hsrs: "half serious",
         };
 
         return {
