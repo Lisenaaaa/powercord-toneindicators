@@ -11,6 +11,7 @@ const tones = {
   g: "genuine / genuine question",
   gen: "genuine / genuine question",
   hj: "half joking",
+  hsrs: "half serious",
   hyp: "hyperbole",
   ij: "inside joke",
   j: "joking",
