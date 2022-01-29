@@ -60,6 +60,25 @@ module.exports = class ToneIndicators extends Plugin {
 
           x: "sexual intent",
           sx: "sexual intent",
+
+          /* fuck i'm too lazy to alphabetize these, if someone wants to make a pr to do that please do */
+
+          sarc: "sarcastic / sarcasm",
+          g: "genuine / genuine question",
+          ref: "reference",
+          lu: "a little upset",
+          nf: "not forced",
+          nsb: "not subtweeting",
+          nay: "not at you",
+          ay: "at you",
+          nbr: "not being rude",
+          ot: "off topic",
+          l: "lyrics",
+          m: "metaphor / metaphorically",
+          rt: "rhetorical question",
+          a: "alterous",
+          ns: "non-sexual intent",
+          neu: "neutral / neutral connotation",
         };
 
         return {
