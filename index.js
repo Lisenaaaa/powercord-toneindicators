@@ -17,7 +17,7 @@ const tones = {
   j: "Joking.",
   l: "Lyrics.",
   lh: "Light hearted.",
-  li: "Literal / literally.",
+  li: "Literal / Literally.",
   lu: "A little upset.",
   ly: "Lyrics.",
   m: "Metaphor / Metaphorically.",
