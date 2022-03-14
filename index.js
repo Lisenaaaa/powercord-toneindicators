@@ -10,6 +10,7 @@ const tones = {
   f: "Fake.",
   g: "Genuine / Genuine question.",
   gen: "Genuine / Genuine question.",
+  genq: "Genuine / Genuine question.",
   hj: "Half joking.",
   hsrs: "Half serious.",
   hyp: "Hyperbole.",
