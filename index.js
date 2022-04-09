@@ -3,7 +3,9 @@ const { inject, uninject } = require("powercord/injector")
 const { React, getModuleByDisplayName, getModule } = require("powercord/webpack")
 
 const tones = {
-  a: "Alterous.",
+  a: "Affectionate.",
+  al: "Alterous.",
+  alt: "Alterous.",
   ay: "At you.",
   c: "Copypasta.",
   cb: "Clickbait.",
@@ -22,6 +24,7 @@ const tones = {
   lu: "A little upset.",
   ly: "Lyrics.",
   m: "Metaphor / Metaphorically.",
+  mj: "Major joke.",
   nay: "Not at you.",
   nbh: "Nobody here.",
   nbr: "Not being rude.",
@@ -29,6 +32,7 @@ const tones = {
   neg: "Negative connotation.",
   neu: "Neutral / Neutral connotation.",
   nf: "Not forced.",
+  nfta: "Not forced to answer.",
   nm: "Not mad.",
   ns: "Non-sexual intent.",
   nsb: "Not subtweeting.",
